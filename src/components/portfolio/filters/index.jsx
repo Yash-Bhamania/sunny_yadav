@@ -6,21 +6,19 @@ const filtersData = [
         id: "all",
     },
     {
-        name: "Products",
-        id: "product",
+        name: "Living Area",
+        id: "Living-Area",
     },
     {
-        name: "Web Pages",
-        id: "web-page",
+        name: "Kitchen 360",
+        id: "Kitchen",
     },
     {
-        name: "Web Apps",
-        id: "web-app",
+        name: "Bedroom 360",
+        id: "Bedroom",
     },
-    {
-        name: "Mobile Apps",
-        id: "mobile-app",
-    },
+    
+   
 ];
 
 const Filters = ({ filterProjects }) => {

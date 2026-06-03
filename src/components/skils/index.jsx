@@ -1,6 +1,6 @@
 import React from "react";
 import "./style.scss";
-import skill from "../../images/tech-icons.png";
+import skill from "../../images/Skils.png";
 import Section from "../Shared/section";
 import CallToAction from "../Shared/CallToAction";
 import { AiOutlineCloudDownload } from "react-icons/ai";
@@ -21,25 +21,35 @@ const Skills = () => {
                 <div className="right-col">
                     <h2>Skills</h2>
                     <p>
-                        I bring a strong command of React, JavaScript, HTML, and
-                        CSS to develop fast, responsive, and visually appealing
-                        web applications. With tools like Material UI, Tailwind
-                        CSS, and Bootstrap, I create polished user interfaces
-                        that feel intuitive and modern. I also work with Node.js
-                        and MongoDB to build reliable backend systems, allowing
-                        me to deliver complete, scalable solutions from design
-                        to deployment.
+                      Experienced in using 3ds Max, AutoCAD, and Photoshop. Strong knowledge of lighting, materials, textures, and composition to ensure accuracy and realism. Able to work closely with architects and designers to improve design quality and meet project requirements.
+Focused on delivering projects on time with attention to detail and consistency.
+
                     </p>
                     <CallToAction
                         text="Download CV"
                         icon={<AiOutlineCloudDownload />}
+                        // action={() => {
+                        //     console.log("Button is triggered");
+                        //     window.open("/Yash_Resume.pdf", "_blank");
+                        //     const link = document.createElement("a");
+                        //     link.href = "/Yash_Resume.pdf";
+                        //     link.download = "Yash_Resume.pdf";
+                        //     link.click();
+                        // }}
                         action={() => {
                             console.log("Button is triggered");
-                            window.open("/Yash_Resume.pdf", "_blank");
+
+                            const resumeUrl = `${process.env.PUBLIC_URL}/3D_interior_resume.pdf`;
+
+                            window.open(resumeUrl, "_blank");
+
                             const link = document.createElement("a");
-                            link.href = "/Yash_Resume.pdf";
-                            link.download = "Yash_Resume.pdf";
+                            link.href = resumeUrl;
+                            link.download = "3D_interior_resume.pdf";
+
+                            document.body.appendChild(link);
                             link.click();
+                            document.body.removeChild(link);
                         }}
                     />
                 </div>

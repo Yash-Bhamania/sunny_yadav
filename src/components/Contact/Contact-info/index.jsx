@@ -7,16 +7,15 @@ const ContactInfo = () => {
     return (
         <div className="contact-info-box">
             <h4>
-                I would be happy to answer any questions you may have about
-                Website building and hosting
+                Have questions about 3D architecture, interior visualization, or design concepts? Let’s connect
             </h4>
             <div className="contact-option">
                 <FaPhoneAlt />
-                <span className="text"> +91 8295669607</span>
+                <span className="text"> +91 8929456565</span>
             </div>
             <div className="contact-option">
                 <MdEmail />
-                <span className="text"> yashbhamania45@gmil.com</span>
+                <span className="text">  sy8929456565@gmail.com</span>
             </div>
         </div>
     );

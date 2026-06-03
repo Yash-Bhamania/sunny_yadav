@@ -7,7 +7,7 @@ const ShowCase = ({ data, trasition }) => {
         <div className="project-showCase">
             {data.map((project) => (
                 <div
-                    key={project.name}
+                    key={project.id}
                     className={`showCase-item ${
                         trasition === "zoomOut"
                             ? "zoomOut"
@@ -15,6 +15,8 @@ const ShowCase = ({ data, trasition }) => {
                             ? "zoomIn"
                             : ""
                     } `}
+                      onClick={() => window.open(project.link, "_blank")}
+                    style={{ cursor: "pointer" }}
                 >
                     <div className="meta-content">
                         <h3>{project.name}</h3>

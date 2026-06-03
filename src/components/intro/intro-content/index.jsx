@@ -21,15 +21,12 @@ const IntroContent = () => {
                                     alt=""
                                 />
                             </span>
-                            <span className="text">, I am Yash!</span>
+                            <span className="text">, I am Sunny!</span>
                         </span>
-                        <span className="big-text">Frontend Developer</span>
+                        <span className="big-text">3D Architectural Visualizer</span>
                     </h1>
                     <p className="small-text">
-                        I design and develop beautiful, intuitive digital
-                        experiences. With React, Material UI, and modern web
-                        tools, I turn concepts into elegant, high-performing
-                        interfaces.
+                       Creative 3D Architectural Visualizer with 8+ years of experience in creating high-quality and realistic renderings for residential and commercial projects. Skilled in converting architectural designs into clear and effective visual presentations.
                     </p>
                     <CallToAction
                         text="Contect me"
