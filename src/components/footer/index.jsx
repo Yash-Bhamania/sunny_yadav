@@ -65,27 +65,27 @@ const Footer = () => {
                     <SocialIcons
                         color="#ff0000"
                         icon={<FaYoutube />}
-                        link="https://www.youtube.com/@yash_bhamania"
+                        // link="https://www.youtube.com/@yash_bhamania"
                     />
                     <SocialIcons
                         color="#0d2626"
                         icon={<FaGithub />}
-                        link="https://github.com/Yash-Bhamania"
+                        // link="https://github.com/Yash-Bhamania"
                     />
                     <SocialIcons
                         color="#f2740d"
                         icon={<FaStackOverflow />}
-                        link="https://stackoverflow.com/users/27338406/yash-bhamania"
+                        // link="https://stackoverflow.com/users/27338406/yash-bhamania"
                     />
                     <SocialIcons
                         color="#0a66c2"
                         icon={<FaLinkedinIn />}
-                        link="https://www.linkedin.com/in/yash-bhamania/"
+                        // link="https://www.linkedin.com/in/yash-bhamania/"
                     />
                     <SocialIcons
                         color="#E84C88"
                         icon={<FaInstagram />}
-                        link="https://www.instagram.com/yash_bhamania/"
+                        // link="https://www.instagram.com/yash_bhamania/"
                     />
                 </div>
                 <div className="bottom-bar">
