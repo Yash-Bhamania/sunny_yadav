@@ -1,8 +1,7 @@
 {
   "files": {
     "main.css": "/sunny_yadav/static/css/main.238ba965.css",
-    "main.js": "/sunny_yadav/static/js/main.24952f56.js",
-    "static/media/girl.png": "/sunny_yadav/static/media/girl.9b9fd9571cd1be2fe067.png",
+    "main.js": "/sunny_yadav/static/js/main.39a0b705.js",
     "static/media/fgjfssrdr.jpeg": "/sunny_yadav/static/media/fgjfssrdr.813e7211117f389b1e45.jpeg",
     "static/media/WhatsApp Image 2026-05-04 at 21.06.51.jpeg": "/sunny_yadav/static/media/WhatsApp Image 2026-05-04 at 21.06.51.5c2c9ac42e510b0aa84b.jpeg",
     "static/media/ljhgfuyttdjrt.jpeg": "/sunny_yadav/static/media/ljhgfuyttdjrt.f4375fc46a024f7c1d0e.jpeg",
@@ -14,14 +13,15 @@
     "static/media/blog-thumb-1.jpg": "/sunny_yadav/static/media/blog-thumb-1.d299b4913f9d814f738d.jpg",
     "static/media/vector-background.png": "/sunny_yadav/static/media/vector-background.17fff8ffdaaf3dcfe71c.png",
     "static/media/blog-thumb-3.jpg": "/sunny_yadav/static/media/blog-thumb-3.da7632eea65347470e13.jpg",
+    "static/media/robo-removebg-preview.png": "/sunny_yadav/static/media/robo-removebg-preview.42d97e331df1b22901cc.png",
     "static/media/cloud-soft.png": "/sunny_yadav/static/media/cloud-soft.4a7c46b961e63488802b.png",
     "static/media/logo.svg": "/sunny_yadav/static/media/logo.18add04313bb8a60375cce5e15f7b377.svg",
     "index.html": "/sunny_yadav/index.html",
     "main.238ba965.css.map": "/sunny_yadav/static/css/main.238ba965.css.map",
-    "main.24952f56.js.map": "/sunny_yadav/static/js/main.24952f56.js.map"
+    "main.39a0b705.js.map": "/sunny_yadav/static/js/main.39a0b705.js.map"
   },
   "entrypoints": [
     "static/css/main.238ba965.css",
-    "static/js/main.24952f56.js"
+    "static/js/main.39a0b705.js"
   ]
 }
